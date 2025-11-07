@@ -1,12 +1,21 @@
+.rethink-sans-<uniquifier> {
+  font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body{
     margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Rethink Sans', sans-serif;
 }
 
 .header{
     background-image: url(image2.jpg);
     padding: 32px 24px;
+    font-family: reth;
     border-radius: 8px;
     color: white;
 }
@@ -27,9 +36,12 @@ body{
     background-color: #37B367;
     height: 40px;
     width: 150px;
+    border: 1px;
     border-radius: 16px;
+    font-size: 16px;
     cursor: pointer;
     gap: 12px;
+    text-align: center;
 }
 
 .img22{
